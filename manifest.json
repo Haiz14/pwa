@@ -1,7 +1,7 @@
 {
   "name": "pwa",
   "short_name": "pwa",
-  "start_url": "/",
+  "start_url": "/pwa/",
   "icons": [
     {
       "src": "icons/manifest-icon-192.maskable.png",
