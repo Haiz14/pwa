@@ -1,7 +1,6 @@
 
 let deferredPrompt;
 const addBtn = document.querySelector('.add-button');
-addBtn.innerHTML = "hello haiz";
 addBtn.style.display = 'none';
 
 window.addEventListener('beforeinstallprompt', (e) => {
