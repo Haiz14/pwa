@@ -60,15 +60,9 @@
     </button>
     <script>
       if ('serviceWorker' in navigator){
-        navigator.serviceWorker.register('/pwa/sw.js');
+        navigator.serviceWorker.register('./sw.js');
       }
 
-    </script>
-    <script>
-    let defferedPrompt;
-    window.addEventListener('beforeinstall', (e) =>{
-    defferedPrompt = e;
-    });
     </script>
   </body>
 </html>
